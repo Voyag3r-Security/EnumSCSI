@@ -6,6 +6,7 @@ This repository contains a script for setting up iSCSI targets locally and anoth
 
 - `setup_targets.sh`: A Bash script to create test backing files, format them, populate with sample data, and configure iSCSI targets using `targetcli`.
 - `enumscsi.py`: A Python script to discover, log in to, mount, and optionally interact with iSCSI targets from the initiator side.
+- `cleanup.sh`: A Bash script to remove the assets created with `setup_targets.sh`. Completely untested, use at your own risk.
 
 ---
 ## EnumSCSI
